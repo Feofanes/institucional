@@ -14,14 +14,7 @@
 }
 
 /* ⛔ Asegurá que el carousel no herede esto */
-.carousel,
-.carousel-inner,
-.carousel-item,
-.carousel img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 
 /* LOGOS ROTATIVOS */
 

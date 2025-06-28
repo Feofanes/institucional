@@ -7,17 +7,32 @@
 }
 
 /* 🖼 Forzamos altura consistente para todos los slides */
+
+.carouse-inner {
+  height: 80vh; /* Altura del carrusel */
+  overflow: hidden;
+  }
+
 .carousel-item {
-  height: 80vh; /* ✅ Altura reducida (podés ajustar a 40vh o 60vh) */
+
   position: relative;
+
+  
 }
+
+
 
 /* 📸 Imagen adaptada al tamaño del contenedor */
 .carousel-item img {
+ width: 100%;
   height: 100%;
-  width: 100%;
-  object-fit: cover; /* ✅ Recorta elegantemente */
+  object-fit: cover;
+  display: block;
 }
+
+
+
+
 
 /* 🌒 Oscurecimiento */
 .carousel-item::before {
